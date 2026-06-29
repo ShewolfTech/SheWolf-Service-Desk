@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "XenDesk",
+  title: "Shewolf Service Desk",
   description: "Internal Customer Support & Ticketing System",
 };
 

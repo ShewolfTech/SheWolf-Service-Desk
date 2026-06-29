@@ -48,7 +48,7 @@ export default function LoginPage() {
             <div className="w-full max-w-md bg-white p-8 rounded-xl shadow">
 
                 <h1 className="text-2xl font-bold mb-6 text-center">
-                    XenDesk Login
+                    Shewolf Service Desk Login
                 </h1>
 
                 <form onSubmit={handleLogin} className="space-y-4">

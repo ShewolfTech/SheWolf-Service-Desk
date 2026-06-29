@@ -18,21 +18,21 @@ async function main() {
 
   // --- Agents ---
   const agent1 = await prisma.user.create({
-    data: { name: "Support Agent One", email: "agent@xendesk.com", passwordHash, role: UserRole.AGENT },
+    data: { name: "Support Agent One", email: "agent@Shewolf Service Desk.com", passwordHash, role: UserRole.AGENT },
   });
   const agent2 = await prisma.user.create({
-    data: { name: "Support Agent Two", email: "agent2@xendesk.com", passwordHash, role: UserRole.AGENT },
+    data: { name: "Support Agent Two", email: "agent2@Shewolf Service Desk.com", passwordHash, role: UserRole.AGENT },
   });
 
   // --- Customers ---
   const customer1 = await prisma.user.create({
-    data: { name: "John Customer", email: "customer@xendesk.com", passwordHash, role: UserRole.CUSTOMER },
+    data: { name: "John Customer", email: "customer@Shewolf Service Desk.com", passwordHash, role: UserRole.CUSTOMER },
   });
   const customer2 = await prisma.user.create({
-    data: { name: "Amara Okello", email: "customer2@xendesk.com", passwordHash, role: UserRole.CUSTOMER },
+    data: { name: "Amara Okello", email: "customer2@Shewolf Service Desk.com", passwordHash, role: UserRole.CUSTOMER },
   });
   const customer3 = await prisma.user.create({
-    data: { name: "Brian Mugisha", email: "customer3@xendesk.com", passwordHash, role: UserRole.CUSTOMER },
+    data: { name: "Brian Mugisha", email: "customer3@Shewolf Service Desk.com", passwordHash, role: UserRole.CUSTOMER },
   });
 
   // --- Tags ---
@@ -203,8 +203,8 @@ async function main() {
   console.log("Seeding completed successfully");
   console.log("");
   console.log("Demo accounts (all use password: Password123!)");
-  console.log("  Agent:    agent@xendesk.com / agent2@xendesk.com");
-  console.log("  Customer: customer@xendesk.com / customer2@xendesk.com / customer3@xendesk.com");
+  console.log("  Agent:    agent@Shewolf Service Desk.com / agent2@Shewolf Service Desk.com");
+  console.log("  Customer: customer@Shewolf Service Desk.com / customer2@Shewolf Service Desk.com / customer3@Shewolf Service Desk.com");
 }
 
 main()

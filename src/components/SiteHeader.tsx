@@ -9,7 +9,7 @@ export async function SiteHeader() {
     <header className="border-b border-black/10 bg-white">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-3">
         <Link href={user?.role === "AGENT" ? "/dashboard" : "/tickets"} className="font-semibold">
-          XenDesk
+          Shewolf Service Desk
         </Link>
 
         {user && (

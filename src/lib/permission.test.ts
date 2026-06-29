@@ -23,11 +23,11 @@ vi.mock("@/lib/auth", () => ({
 import { getCurrentUser, requireUser, requireUserOrThrow } from "@/lib/permission";
 
 const AGENT_SESSION = {
-  user: { id: "agent-1", email: "agent@xendesk.com", name: "Agent One", role: "AGENT" },
+  user: { id: "agent-1", email: "agent@Shewolf Service Desk.com", name: "Agent One", role: "AGENT" },
 };
 
 const CUSTOMER_SESSION = {
-  user: { id: "cust-1", email: "cust@xendesk.com", name: "Customer One", role: "CUSTOMER" },
+  user: { id: "cust-1", email: "cust@Shewolf Service Desk.com", name: "Customer One", role: "CUSTOMER" },
 };
 
 beforeEach(() => {

@@ -1,11 +1,11 @@
-# XenDesk — Internal Customer Support & Ticketing System
+# Shewolf Service Desk — Internal Customer Support & Ticketing System
 
 A full-stack support ticketing application built for the XenFi Systems Senior Fullstack Engineer practical task. Customers submit and track support tickets; agents triage, assign, and resolve them.
 
 ## Live Demo
 
-- **App:** https://xendesk-virid.vercel.app
-- **Repo:** https://github.com/SoniaRMK/xendesk
+- **App:** https://Shewolf Service Desk-virid.vercel.app
+- **Repo:** https://github.com/SoniaRMK/Shewolf Service Desk
 
 ## Demo Credentials
 
@@ -13,11 +13,11 @@ All seeded accounts share the password `Password123!`.
 
 | Role | Email |
 |------|-------|
-| Agent | `agent@xendesk.com` |
-| Agent | `agent2@xendesk.com` |
-| Customer | `customer@xendesk.com` |
-| Customer | `customer2@xendesk.com` |
-| Customer | `customer3@xendesk.com` |
+| Agent | `agent@Shewolf Service Desk.com` |
+| Agent | `agent2@Shewolf Service Desk.com` |
+| Customer | `customer@Shewolf Service Desk.com` |
+| Customer | `customer2@Shewolf Service Desk.com` |
+| Customer | `customer3@Shewolf Service Desk.com` |
 
 ## Tech Stack & Why
 
@@ -88,8 +88,8 @@ Ticket >──< Tag   (via TicketTag join table)
 
 Clone and install:
 
-    git clone https://github.com/SoniaRMK/xendesk.git
-    cd xendesk
+    git clone https://github.com/SoniaRMK/Shewolf Service Desk.git
+    cd Shewolf Service Desk
     npm install
 
 Create a `.env` file (see `.env.example`) with the following variables:
@@ -99,7 +99,7 @@ Create a `.env` file (see `.env.example`) with the following variables:
     NEXTAUTH_SECRET="<generate with: npx auth secret>"
     NEXTAUTH_URL="http://localhost:3000"
 
-For a Vercel deployment, set the same four variables in Project Settings → Environment Variables, with `NEXTAUTH_URL` set to the deployed URL (e.g. `https://xendesk-virid.vercel.app`) rather than `localhost`.
+For a Vercel deployment, set the same four variables in Project Settings → Environment Variables, with `NEXTAUTH_URL` set to the deployed URL (e.g. `https://Shewolf Service Desk-virid.vercel.app`) rather than `localhost`.
 
 Generate the Prisma client, apply migrations, and seed demo data:
 
